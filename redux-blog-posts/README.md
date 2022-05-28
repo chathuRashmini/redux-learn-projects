@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Mini project: redux-blog-posts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small blog project done with using react js along with redux toolkit.
 
-## Available Scripts
+## Home page
 
-In the project directory, you can run:
+At the top there is a form to add a new post bu entering a title, content and it's author. The button will remain disabled till all the three inputs are given.
 
-### `npm start`
+Already existing posts are listed below the form. Each post view is consist of its title, content, author, date of post and the reactions received by it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![homepage](https://raw.githubusercontent.com/chathuRashmini/redux-learn-projects/main/redux-blog-posts/finalLook_addPost.png?token=GHSAT0AAAAAABS5LU7OQXFNTM32VK6BG7GYYUSAM3A)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## When a post is added
 
-### `npm test`
+When a new post is added it will appear on to of the lists. Posts are sorted according to their posted date. Newest ones are on the top.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![postadded](https://raw.githubusercontent.com/chathuRashmini/redux-learn-projects/main/redux-blog-posts/finalLook_displayAddedPost.png?token=GHSAT0AAAAAABS5LU7PINFIW7TC7WSC6VJ4YUSAPNA)
