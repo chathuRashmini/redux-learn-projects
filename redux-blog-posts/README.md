@@ -8,10 +8,10 @@ At the top there is a form to add a new post bu entering a title, content and it
 
 Already existing posts are listed below the form. Each post view is consist of its title, content, author, date of post and the reactions received by it.
 
-![homepage](https://raw.githubusercontent.com/chathuRashmini/redux-learn-projects/main/redux-blog-posts/finalLook_addPost.png?token=GHSAT0AAAAAABS5LU7OQXFNTM32VK6BG7GYYUSAM3A)
+![homepage](https://github.com/chathuRashmini/redux-learn-projects/blob/main/redux-blog-posts/finalLook_addPost.png?raw=true)
 
 ## When a post is added
 
 When a new post is added it will appear on to of the lists. Posts are sorted according to their posted date. Newest ones are on the top.
 
-![postadded](https://raw.githubusercontent.com/chathuRashmini/redux-learn-projects/main/redux-blog-posts/finalLook_displayAddedPost.png?token=GHSAT0AAAAAABS5LU7PINFIW7TC7WSC6VJ4YUSAPNA)
+![postadded](https://github.com/chathuRashmini/redux-learn-projects/blob/main/redux-blog-posts/finalLook_displayAddedPost.png?raw=true)
