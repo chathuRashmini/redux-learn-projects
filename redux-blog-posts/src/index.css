@@ -24,6 +24,16 @@ select {
   margin-bottom: 1em;
 }
 
+button {
+  color: aliceblue;
+  background-color: rgb(27, 174, 59);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(7, 96, 26);
+}
+
 main {
   max-width: 500px;
   margin: auto;
