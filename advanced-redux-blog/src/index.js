@@ -8,8 +8,10 @@ import App from './App';
 
 import { store } from './store'
 import { fetchUsers }from './features/users/usersSlice'
+import { fetchPosts } from './features/posts/postsSlice'
 
 store.dispatch(fetchUsers())
+store.dispatch(fetchPosts())
 
 ReactDOM.render(
   <React.StrictMode>
